@@ -96,15 +96,21 @@ nav{
     flex-direction: column;
   }
 
+/*screen*/
+ .logo-grande{
+  display: none;
+ }
+
 
   @media screen and (min-width:992px) {
     /*altezze e box*/
     nav{
         height: calc(100vh - 110px);
-        background-color: black;
+      width: 455px;
     }
     .libreria{
       height: calc(100vh - 290px);
+      width: calc(100vw - 455px);
     }
 
     .ft{
@@ -113,6 +119,18 @@ nav{
 
     .head-dx{
         height: 180px;
+        width: calc(100vw - 455px);
+    }
+    .logo-grande{
+      height: 110px;
+    }
+
+    /*display*/
+    .logo-grande{
+      display: block;
+    }
+    .logo-piccolo{
+      display: none;
     }
 
   }
