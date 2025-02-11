@@ -3,3 +3,31 @@
     padding: 0;
     box-sizing: border-box;
   }
+/* altezze e box*/
+
+body{
+    height: 100vh;
+    background-color: blue;
+}
+
+nav{
+    height: calc(100vh - 90px);
+    background-color: aqua;
+}
+footer{
+    height: 90px;
+    background-color: beige;
+}
+.head-sx{
+    height: 90px;
+    
+    background-color:brown ;
+}
+.sx{width: 100%;
+
+}
+
+  /*flex*/
+  .flex{
+    display: flex;
+  }
