@@ -14,7 +14,7 @@ nav{
     height: calc(100vh - 90px);
     background-color: aqua;
 }
-footer{
+.ft{
     height: 90px;
     background-color: beige;
 }
@@ -30,4 +30,17 @@ footer{
   /*flex*/
   .flex{
     display: flex;
+  }
+  @media screen and (min-width:992px) {
+    /*altezze e box*/
+    nav{
+        height: calc(100vh - 110px);
+        background-color: black;
+    }
+    .ft{
+       min-height: 110px;
+    }
+    .head-sx{
+        min-height: 180px;
+    }
   }
