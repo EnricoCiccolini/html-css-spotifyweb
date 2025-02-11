@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  li{
+    list-style-type: none;
+  }
 /* altezze e box*/
 
 body{
@@ -11,6 +15,7 @@ body{
 
 nav{
     height: calc(100vh - 90px);
+    min-width: 55px;
 }
 
 .ft{
@@ -21,9 +26,13 @@ nav{
     height: 90px;
 }
 
-.dx{width: 100%;
-
+.dx{
+    width: 100%;
 }
+.container-nav{
+   width: 100%;
+}
+
 
 /*backround */
 
@@ -40,11 +49,26 @@ nav{
     background-color: #282828;
 }
 
+/* colori testo*/
+
+.tx-grey{
+    color: #151922;
+}
+.tx-white{
+    color: #ffffff;
+}
+
 
 
   /*flex*/
   .flex{
     display: flex;
+  }
+  .space-beet{
+    justify-content: space-between;
+  }
+  .colonnum{
+    flex-direction: column;
   }
 
 
