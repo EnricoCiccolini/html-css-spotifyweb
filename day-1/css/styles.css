@@ -1,50 +1,58 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*{
+  font-family: Montserrat;
+}
+li {
+  list-style-type: none;
+}
 
-  li{
-    list-style-type: none;
-  }
-  img{
-    max-width: 100%;
-    display: block;
+img {
+  max-width: 100%;
+  display: block;
 
-  }
+}
+
 /* altezze e box*/
 
-body{
-    height: 100vh;
-    width: 100vw;
+body {
+  height: 100vh;
+  width: 100vw;
 }
 
-nav{
-    height: calc(100vh - 90px);
-    width: 55px;
+nav {
+  height: calc(100vh - 90px);
+  width: 55px;
 }
 
-.ft{
-    height: 90px;
+.ft {
+  height: 90px;
 }
-.libreria{
+
+.libreria {
   height: calc(100vh - 180px);
   width: calc(100vw - 55px);
 }
-.head-dx{
-    height: 90px;
-    width: calc(100vw - 55px);
+
+.head-dx {
+  height: 90px;
+  width: calc(100vw - 55px);
 }
 
-.container-nav{
-   width: 55px;
-   height: calc(100vh - 155px);
+.container-nav {
+  width: 55px;
+  height: calc(100vh - 155px);
 }
-img{
+
+img {
   height: 30px;
 
 }
-.hg50{
+
+.hg50 {
   width: 50%;
 }
 
@@ -52,85 +60,189 @@ img{
 
 /*backround */
 
-nav{
-    background-color: #000000;
+nav {
+  background-color: #000000;
 }
-.head-dx{
-    background-color: #10131a ;
+
+.head-dx {
+  background-color: #10131a;
 }
-.libreria{
-    background-color: #151922;
+
+.libreria {
+  background-color: #151922;
 }
-.ft{
-    background-color: #282828;
+
+.ft {
+  background-color: #282828;
 }
 
 /* colori testo*/
 
-.tx-grey{
-    color: #151922;
+.tx-grey {
+  color: #858585;
 }
-.tx-white{
-    color: #ffffff;
+
+.tx-white {
+  color: #ffffff;
 }
 
 /*PADDING*/
-.padding10{
+.padding10 {
   padding: 10px;
 }
 
-
+/*bordi*/
+.cerchio{
+  background-color: #858585;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  overflow: hidden;
+}
 /* margine*/
-.logo-piccolo{
+.logo-piccolo {
   margin-bottom: 15px;
 }
 
-  /*flex*/
-  .flex{
-    display: flex;
-  }
-  .space-beet{
-    justify-content: space-between;
-  }
-  .colonnum{
-    flex-direction: column;
-  }
+/*flex*/
+.flex {
+  display: flex;
+}
+.flex-telefono{
+  display: flex;
+}
+
+.space-beet {
+  justify-content: space-between;
+}
+
+.colonnum {
+  flex-direction: column;
+}
 
 /*screen*/
- .logo-grande{
+.logo-grande {
   display: none;
- }
+}
+.computer{
+  display: none;
+}
 
 
-  @media screen and (min-width:992px) {
-    /*altezze e box*/
-    nav{
-        height: calc(100vh - 110px);
-      width: 455px;
-    }
-    .libreria{
-      height: calc(100vh - 290px);
-      width: calc(100vw - 455px);
-    }
+/*hover*/
+#home:hover{
+  border-left:3px solid green ;
+}
+#cerca:hover{
+  border-left:3px solid green ;
+}
+#libreria:hover{
+  border-left:3px solid green ;
+}
 
-    .ft{
-       height: 110px;
-    }
+@media screen and (min-width:992px) {
 
-    .head-dx{
-        height: 180px;
-        width: calc(100vw - 455px);
-    }
-    .logo-grande{
-      height: 110px;
-    }
-
-    /*display*/
-    .logo-grande{
-      display: block;
-    }
-    .logo-piccolo{
-      display: none;
-    }
+  /*altezze e box*/
+  .hg50{
+    width: 100%;
 
   }
+  nav {
+    height: calc(100vh - 110px);
+    width: 455px;
+  }
+
+  .libreria {
+    height: calc(100vh - 290px);
+    width: calc(100vw - 455px);
+  }
+
+  .ft {
+    height: 110px;
+  }
+
+  .container-nav {
+    width: 100%;
+    height: calc(100vh - 240px);
+  }
+
+  .head-dx {
+    height: 180px;
+    width: calc(100vw - 455px);
+  }
+
+  .logo-grande {
+    height: 110px;
+  }
+  li img{
+    height: 2em;
+  }
+
+  li{
+    font-size: 2em;
+    align-items: center;
+  }
+  h3{
+    font-size: 2em;
+  }
+
+
+
+  /*display*/
+  .computer{
+    display: block;
+  }
+
+
+  .logo-grande {
+    display: block;
+  }
+
+  .logo-piccolo {
+    display: none;
+  }
+  .flex-telefono{
+    display: block;
+  }
+
+
+/* mergine , padding e bordi*/
+.cerchio{
+  margin-right: 15px;
+}
+.bordopc{
+  margin-right: 15px;
+}
+
+.bordo{
+  border-bottom: #ffffff;
+}
+.padding-computer{
+  padding: 30px;
+}
+.margin-bot120{
+  margin-bottom: 120px;
+}
+.logo-grande{
+margin-bottom: 47px;
+}
+.margin-bot60{
+  margin-bottom: 60px;
+}
+li{
+  margin-bottom: 10px;
+}
+h3{
+  margin-bottom: 10px;
+}
+.bordointero{
+  border: 2px solid #858585;
+  height: 3rem;
+  width: 3rem;
+  text-align: center;
+  line-height: 3rem;
+  background-color: #858585;
+  color: #000000;
+ 
+}
+
+}
