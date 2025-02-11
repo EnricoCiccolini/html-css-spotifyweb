@@ -36,9 +36,9 @@ nav{
     width: calc(100vw - 55px);
 }
 
-/*
 .container-nav{
    width: 55px;
+   height: calc(100vh - 155px);
 }
 img{
   height: 30px;
@@ -46,8 +46,9 @@ img{
 }
 .hg50{
   width: 50%;
-
 }
+
+
 
 /*backround */
 
@@ -73,7 +74,16 @@ nav{
     color: #ffffff;
 }
 
+/*PADDING*/
+.padding10{
+  padding: 10px;
+}
 
+
+/* margine*/
+.logo-piccolo{
+  margin-bottom: 15px;
+}
 
   /*flex*/
   .flex{
