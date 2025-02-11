@@ -7,40 +7,60 @@
 
 body{
     height: 100vh;
-    background-color: blue;
 }
 
 nav{
     height: calc(100vh - 90px);
-    background-color: aqua;
 }
+
 .ft{
     height: 90px;
-    background-color: beige;
 }
-.head-sx{
+
+.head-dx{
     height: 90px;
-    
-    background-color:brown ;
 }
-.sx{width: 100%;
+
+.dx{width: 100%;
 
 }
+
+/*backround */
+
+nav{
+    background-color: #000000;
+}
+.dx{
+    background-color: #10131a ;
+}
+.head-dx{
+    background-color: #151922;
+}
+.ft{
+    background-color: #282828;
+}
+
+
 
   /*flex*/
   .flex{
     display: flex;
   }
+
+
   @media screen and (min-width:992px) {
     /*altezze e box*/
     nav{
         height: calc(100vh - 110px);
         background-color: black;
     }
+
     .ft{
        min-height: 110px;
     }
-    .head-sx{
+
+    .head-dx{
         min-height: 180px;
     }
+
   }
