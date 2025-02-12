@@ -198,27 +198,10 @@ nav {
 
 
 /* cellulare normale*/
-@media screen and (min-width:992px){
+@media screen and (min-width:576px){
   .cont-selection{
     width: 25%
   }
-  
-
-}
-
-
-
-/* tablet*/
-@media screen and (min-width:992px){}
-.cont-selection{
-  width: 20%
-}
-
-
-/*pc*/
-
-@media screen and (min-width:992px) {
-
   /*altezze e box*/
   .cont-selection{
     width: initial
@@ -321,4 +304,28 @@ h3{
  
 }
 
+}
+
+
+
+
+
+/* tablet*/
+@media screen and (min-width:768px){
+  .scheda{
+    height: 20%;
+    width: 20%;
+  }
+  
+
+}
+/*pc*/
+
+@media screen and (min-width:992px) {
+  .scheda{
+    height: 15%;
+    width: 15%;
+  }
+  
+  
 }
