@@ -41,7 +41,8 @@ body {
   width: 100%;
 }
 .libreria{
-  height: calc(100% - 43px);
+  height: 100% ;
+  padding-top: 50px;
 }
 .scroll{
   height :100%
@@ -64,7 +65,7 @@ nav {
 
 .container-nav {
   width: 55px;
-  height: calc(100% - 25px);
+  height: calc(100% - 45px);
 }
 
 img {
@@ -92,11 +93,6 @@ img {
 nav {
   background-color: #000000;
 }
-
-.head-dx {
-  background-color: #10131a;
-}
-
 .libreria {
   background-color: #151922;
 }
@@ -191,6 +187,14 @@ nav {
 }
 .computer{
   display: none;
+}
+.head-dx{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: none;
+    opacity: 0.7;
+
 }
 
 
