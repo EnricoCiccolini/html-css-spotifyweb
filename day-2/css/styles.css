@@ -40,6 +40,12 @@ body {
 .colonna-destra{
   width: 100%;
 }
+.libreria{
+  height: calc(100% - 43px);
+}
+.scroll{
+  height :100%
+}
 nav {
   width: 55px;
 }
@@ -117,6 +123,10 @@ nav {
 .padding10 {
   padding: 10px;
 }
+.padding20 {
+  padding: 20px;
+}
+
 .pd-top10{
   padding-top: 10px;
 }
@@ -139,6 +149,9 @@ nav {
 /* margine*/
 .logo-piccolo {
   margin-bottom: 15px;
+}
+.scroll{
+  overflow: scroll;
 }
 
 
