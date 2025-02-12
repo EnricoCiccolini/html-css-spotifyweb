@@ -9,6 +9,10 @@
 li {
   list-style-type: none;
 }
+a{
+  text-decoration: none;
+  color: #858585;
+}
 
 img {
   max-width: 100%;
@@ -21,6 +25,7 @@ button{
   border: 2px solid #ffffff;
   border-radius: 45px;
   margin-left: auto;
+ 
 }
 
 /* altezze e box*/
@@ -32,7 +37,9 @@ body {
 .cont-main{
   height: calc(100% - 90px);
 }
-
+.colonna-destra{
+  width: 100%;
+}
 nav {
   width: 55px;
 }
@@ -40,15 +47,13 @@ nav {
 .ft {
   height: 90px;
 }
-
-.libreria {
-  height: calc(100% - 180px);
-  width: calc(100% - 55px);
-}
-
 .head-dx {
-  height: 90px;
-  width: calc(100% - 55px);
+  
+  width: 100%;
+}
+.cont-lista{
+  max-width:80%;
+  margin: 0 auto;
 }
 
 .container-nav {
@@ -58,13 +63,22 @@ nav {
 
 img {
   height: 30px;
-
 }
 
 .hg50 {
   width: 50%;
 }
-
+.cont-schede{
+  height: 100%;
+}
+.img-scheda{
+  width: 100%;
+  height: 100%;
+}
+.scheda{
+  height: 45%;
+  width: 45%;
+}
 
 
 /*backround */
@@ -87,6 +101,10 @@ nav {
 
 /* colori testo*/
 
+.font13{
+  font-size: 8px;
+}
+
 .tx-grey {
   color: #858585;
 }
@@ -99,6 +117,12 @@ nav {
 .padding10 {
   padding: 10px;
 }
+.pd-top10{
+  padding-top: 10px;
+}
+.pd-bot10{
+  padding-bottom: 10px;
+}
 
 /*bordi*/
 .cerchio{
@@ -107,10 +131,16 @@ nav {
   border-radius: 50%;
   overflow: hidden;
 }
+.cerchioimg{
+  border: 2px solid transparent;
+  border-radius: 50%;
+  overflow: hidden;
+}
 /* margine*/
 .logo-piccolo {
   margin-bottom: 15px;
 }
+
 
 /*flex*/
 .flex {
@@ -133,7 +163,15 @@ nav {
 .grow{
   flex-grow: 1;
 }
-
+.gap10{
+  gap: 10px;
+}
+.wrap{
+  flex-wrap: wrap;
+}
+.center{
+  justify-content: center;
+}
 /*screen*/
 .logo-grande {
   display: none;
@@ -154,9 +192,38 @@ nav {
   border-left:3px solid green ;
 }
 
+.hovergreen:hover{
+  border-bottom:3px solid green 
+}
+
+
+/* cellulare normale*/
+@media screen and (min-width:992px){
+  .cont-selection{
+    width: 25%
+  }
+  
+
+}
+
+
+
+/* tablet*/
+@media screen and (min-width:992px){}
+.cont-selection{
+  width: 20%
+}
+
+
+/*pc*/
+
 @media screen and (min-width:992px) {
 
   /*altezze e box*/
+  .cont-selection{
+    width: initial
+  }
+
   .hg50{
     width: 100%;
 
@@ -169,10 +236,7 @@ nav {
     width: 230px;
   }
 
-  .libreria {
-    height: calc(100% - 90px);
-    width: calc(100% - 455px);
-  }
+  
 
   .ft {
     height: 90px;
@@ -182,10 +246,7 @@ nav {
     width: 100%;
   }
 
-  .head-dx {
-    height: 180px;
-    width: calc(100% - 455px);
-  }
+  
 
   .logo-grande {
     height: 110px;
@@ -217,9 +278,7 @@ nav {
   .logo-piccolo {
     display: none;
   }
-  .flex-telefono{
-    display: block;
-  }
+
 
 
 /* mergine , padding e bordi*/
