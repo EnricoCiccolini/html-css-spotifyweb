@@ -94,6 +94,12 @@ img {
   height: 45%;
   width: 45%;
 }
+.wh80{
+  width: 80%;
+}
+.wh30{
+  width: 30%;
+}
 
 
 /*backround */
@@ -126,7 +132,9 @@ nav {
 .tx-white {
   color: #ffffff;
 }
-
+.play{
+  font-size: x-large;
+}
 
 /*PADDING*/
 .padding10 {
@@ -226,6 +234,23 @@ nav {
 
 .hovergreen:hover{
   border-bottom:3px solid green 
+}
+
+
+/*barre*/
+.riprodotto{
+  width: 30%;
+  height: 4px;
+  background-color: #ffffff;
+}
+.non-riprodotto{
+  width: 70%;
+  height: 4px;
+  background-color: #858585;
+}
+
+.al-item-center{
+  align-items: center;
 }
 
 
@@ -344,6 +369,11 @@ h3{
   .scheda{
     height: 20%;
     width: 20%;
+  }
+
+  .tablet-flex{
+    display: flex;
+    gap: 10px;
   }
   
 
