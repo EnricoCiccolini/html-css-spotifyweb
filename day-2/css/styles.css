@@ -33,7 +33,7 @@ button{
   border: 2px solid #ffffff;
   border-radius: 45px;
   margin-left: auto;
- 
+  padding: 7px;
 }
 
 /* altezze e box*/
@@ -162,7 +162,7 @@ nav {
   margin-bottom: 15px;
 }
 .scroll{
-  overflow: scroll;
+  overflow-y: auto;
 }
 
 
@@ -266,10 +266,7 @@ nav {
   .logo-grande {
     height: 110px;
   }
-  li img{
-    height: 1em;
-  }
-
+  
   li{
     font-size: 1em;
     align-items: center;
