@@ -1,0 +1,360 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+
+
+
+li {
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: #858585;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+
+}
+button{
+  all: unset;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 45px;
+  margin-left: auto;
+  padding: 7px;
+}
+
+/* altezze e box*/
+
+body {
+  height: 100vh;
+
+}
+.cont-main{
+  height: calc(100% - 90px);
+}
+.colonna-destra{
+  width: 100%;
+}
+.libreria{
+  height: 100% ;
+  padding-top: 50px;
+}
+.scroll{
+  height :100%
+}
+nav {
+  width: 55px;
+}
+
+.ft {
+  height: 90px;
+}
+.head-dx {
+  
+  width: 100%;
+}
+.cont-lista{
+  max-width:80%;
+  margin: 0 auto;
+}
+
+.container-nav {
+  width: 55px;
+  height: calc(100% - 45px);
+}
+
+img {
+  height: 30px;
+}
+
+.hg50 {
+  width: 50%;
+}
+.cont-schede{
+  height: 100%;
+}
+.img-scheda{
+  width: 100%;
+  height: 100%;
+}
+.scheda{
+  height: 45%;
+  width: 45%;
+}
+
+
+/*backround */
+
+nav {
+  background-color: #000000;
+}
+.libreria {
+  background-color: #151922;
+}
+
+.ft {
+  background-color: #282828;
+}
+
+/* colori e testo*/
+
+.tx-center{
+  text-align: center;
+}
+
+.font13{
+  font-size: 8px;
+}
+
+.tx-grey {
+  color: #858585;
+}
+
+.tx-white {
+  color: #ffffff;
+}
+
+
+/*PADDING*/
+.padding10 {
+  padding: 10px;
+}
+.padding20 {
+  padding: 20px;
+}
+
+.pd-top10{
+  padding-top: 10px;
+}
+.pd-bot10{
+  padding-bottom: 10px;
+}
+.pd-left10{
+  padding-left: 10px;
+}
+/*bordi*/
+.cerchio{
+  background-color: #858585;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.cerchioimg{
+  border: 2px solid transparent;
+  border-radius: 50%;
+  overflow: hidden;
+}
+/* margine*/
+.logo-piccolo {
+  margin-bottom: 15px;
+}
+.scroll{
+  overflow-y: auto;
+}
+
+
+/*flex*/
+.flex {
+  display: flex;
+}
+.flex-telefono{
+  display: flex;
+}
+
+.space-beet {
+  justify-content: space-between;
+}
+
+.colonnum {
+  flex-direction: column;
+}
+.personal{
+  margin-top: auto;
+}
+.grow{
+  flex-grow: 1;
+}
+.gap10{
+  gap: 10px;
+}
+.wrap{
+  flex-wrap: wrap;
+}
+.center{
+  justify-content: center;
+}
+/*screen*/
+.logo-grande {
+  display: none;
+}
+.computer{
+  display: none;
+}
+.head-dx{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: none;
+    opacity: 0.7;
+
+}
+
+
+/*hover*/
+#home:hover{
+  border-left:3px solid green ;
+}
+#cerca:hover{
+  border-left:3px solid green ;
+}
+#libreria:hover{
+  border-left:3px solid green ;
+}
+
+.hovergreen:hover{
+  border-bottom:3px solid green 
+}
+
+
+/* cellulare normale*/
+@media screen and (min-width:576px){
+  .cont-selection{
+    width: 25%
+  }
+  /*altezze e box*/
+  .cont-selection{
+    width: initial
+  }
+
+  .hg50{
+    width: 100%;
+
+  }
+  .cont-main{
+    height: calc(100% -90px);
+  }
+  nav {
+    height: 100%;
+    width: 230px;
+  }
+
+  
+
+  .ft {
+    height: 90px;
+  }
+
+  .container-nav {
+    width: 100%;
+  }
+
+  
+
+  .logo-grande {
+    height: 110px;
+  }
+  
+  li{
+    font-size: 1em;
+    align-items: center;
+  }
+  h3{
+    font-size: 1em;
+  }
+
+
+
+  /*display*/
+  .computer{
+    display: block;
+  }
+
+
+  .logo-grande {
+    display: block;
+  }
+
+  .logo-piccolo {
+    display: none;
+  }
+
+
+
+/* mergine , padding e bordi*/
+.cerchio{
+  margin-right: 15px;
+}
+.bordopc{
+  margin-right: 15px;
+}
+
+.bordo{
+  border-bottom:2px solid #ffffff;
+}
+.padding-computer{
+  padding: 30px;
+}
+.margin-bot120{
+  margin-bottom: 120px;
+}
+.logo-grande{
+padding-bottom: 47px;
+}
+.margin-bot60{
+  padding-bottom: 60px;
+}
+li{
+  padding-bottom: 10px;
+}
+h3{
+  padding-bottom: 10px;
+}
+.bordointero{
+  border: 2px solid #858585;
+  height: 3rem;
+  width: 3rem;
+  text-align: center;
+  line-height: 3rem;
+  background-color: #858585;
+  color: #000000;
+ 
+}
+
+}
+
+
+
+
+
+/* tablet*/
+@media screen and (min-width:768px){
+  .scheda{
+    height: 20%;
+    width: 20%;
+  }
+  
+
+}
+/*pc*/
+
+@media screen and (min-width:992px) {
+  .scheda{
+    height: 15%;
+    width: 15%;
+  }
+  
+  
+}
