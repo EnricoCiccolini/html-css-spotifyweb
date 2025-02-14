@@ -218,8 +218,6 @@ nav {
     left: -22px;
     background: none;
     opacity: 0.7;
-   
-
 }
 .cursore-linea{
   height: 6px;
@@ -243,7 +241,6 @@ nav {
   top: 0;
   left: 30%;
   transform: translate(-50%,-25%);
-  
 }
 
 .fixing{
@@ -253,7 +250,6 @@ nav {
     font-size: 500%;
    opacity: 0;
    z-index: 3;
-
 }
 
 .hoveplay{
@@ -283,7 +279,6 @@ nav {
 .riprodotto:hover .cursore-linea{
   display: inline-block;
   z-index: 10;
-
 }
 .play:hover{
   transform: scale(1.1)
@@ -292,6 +287,12 @@ nav {
 .bianco-tocco:hover{
   color: #ffffff;
 }
+.sott-tocco:hover{
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+
 .riprodotto:hover{
   background-color: greenyellow;
 }
